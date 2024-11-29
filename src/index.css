@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #fafafa;
+  color: #ffffff
+}
+
+.App {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Menu {
+  background-color: #fafafa;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-color: #0192f3;
+  box-shadow: 0 0 15px #0192f3;
+  height: 100%;
+  width: 15em;
+  position: fixed;
+
+}
+
+.block {
+  margin-left: 20em;
+  padding: 1em;
+  background-color: #b6e0ff;
+  color: #04294d;
+  user-select: none;
+  transition: all 1ms;
+}
+
+.sendTask {
+  margin-left: 20em;
+}
+
+.button-text {
+  color: #0192f3;
+  border-width: 1px;
+  border-color: #0192f3;
+}
+
+.button-text:hover {
+  box-shadow: 0 0 10px #0075d3;
+  color: #0075d3;
+}
